@@ -4,7 +4,7 @@
   }
 
   body {
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: #253140;
     display: grid;
     place-items: center;
@@ -34,20 +34,12 @@
 
   nav {
     height: 700px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2px,698px, 2px);
+    position: relative;
   }
-
-  .hr1 {
-    grid-row: 1/2;
-    grid-column: 1/2;
-  }
-
+  
   .hr2 {
+    position: absolute;
     bottom: 0px;
-    grid-row: 3/4;
-    grid-column: 1/2;
   }
 
   hr {
@@ -55,18 +47,21 @@
   }
 
   .g_1 {
-    grid-row: 2/3;
-    grid-column: 1/2;
     width: 1800px;
+    height: 35px;
     text-align: left;
+    margin-top: 15px;
   }
 
   .developer {
-    margin-top: 5px;
     text-align: right;
   }
 
   .make {
     height: 30px;
     width: 150px;
+  }
+
+  footer {
+    margin-top: 20px;
   }
