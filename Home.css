@@ -4,7 +4,7 @@
   }
 
   body {
-    margin-top: 30px;
+    margin-top: 45px;
     background-color: #253140;
     display: grid;
     place-items: center;
@@ -18,13 +18,17 @@
     color: white;
   }
 
+  .title {
+    font-size: 29pt;
+  }
+
   p {
-    width: 1800px;
+    width: 1650px;
     color: white;
   }
 
   header {
-    width: 1800px;
+    width: 1650px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,7 +37,7 @@
   }
 
   nav {
-    height: 700px;
+    height: 650px;
     position: relative;
   }
   
@@ -43,14 +47,15 @@
   }
 
   hr {
-    width: 1800px;
+    width: 1650px;
   }
 
   .g_1 {
-    width: 1800px;
-    height: 35px;
+    width: 1650px;
+    height: 55px;
     text-align: left;
     margin-top: 15px;
+    font-size: 15pt;
   }
 
   .developer {
@@ -58,10 +63,36 @@
   }
 
   .make {
-    height: 30px;
-    width: 150px;
+    height: 40px;
+    width: 200px;
+    font-size: 15pt;
   }
 
   footer {
     margin-top: 20px;
   }
+
+  @media all and (max-width:768px) {  
+    
+    body {
+      margin-top: 15px;
+    }
+
+    p {
+      width: 700px;
+    }
+
+    header {
+      width: 700px;
+    }
+
+    hr {
+      width: 700px;
+    }
+
+    .g_1 {
+      width: 700px;
+    }
+
+  }
+  
